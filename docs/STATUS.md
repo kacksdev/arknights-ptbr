@@ -5,10 +5,10 @@
 | Campo | Estado atual |
 |---|---|
 | Versão do projeto | `0.0.1-dev` |
-| Fase | 0 de 6 — preparação |
+| Fase | 0 de 6, preparação |
 | Plataformas-alvo | PC/Windows e Android |
 | Ordem de implementação | PC primeiro; Android depois |
-| Cliente de desenvolvimento | Ainda não incorporado ao ambiente privado do projeto |
+| Cliente de desenvolvimento | Instalado no PC via Google Play Games; inventário ainda não iniciado |
 | Arquitetura do cliente | Ainda não inventariada |
 | Catálogo de textos | Ainda não criado |
 | Entradas traduzidas | 0 |
@@ -37,6 +37,6 @@
 
 ## Critério do próximo marco
 
-A fase 1 começa somente quando um cliente oficial estiver disponível no ambiente de desenvolvimento e seu inventário puder ser reproduzido sem modificar a instalação ativa. O primeiro relatório registrará versão, hashes, formatos, cadeia de carregamento e quais arquivos podem ser analisados em cópia.
+A fase 1 começa quando o inventário do cliente instalado puder ser reproduzido sem modificar a instalação ativa. O primeiro relatório registrará versão, hashes, formatos, cadeia de carregamento e quais arquivos podem ser analisados em cópia.
 
 Nenhuma porcentagem de tradução será publicada antes da existência de um catálogo deduplicado e auditável.
