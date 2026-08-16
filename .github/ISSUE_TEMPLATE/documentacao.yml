@@ -1,0 +1,28 @@
+name: Correção de documentação
+description: Informe conteúdo incorreto, desatualizado ou difícil de entender.
+title: "[Documentação] "
+labels:
+  - documentação
+body:
+  - type: markdown
+    attributes:
+      value: Não inclua arquivos proprietários, credenciais nem dados pessoais.
+  - type: input
+    id: arquivo
+    attributes:
+      label: Página ou arquivo
+      placeholder: README.md ou docs/STATUS.md
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: O que precisa ser corrigido?
+      description: Explique o conteúdo atual e a mudança sugerida.
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidência ou referência
+      description: Inclua uma fonte pública quando a correção depender de informação externa.

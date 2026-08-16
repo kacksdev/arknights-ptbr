@@ -1,0 +1,39 @@
+name: Sugestão de terminologia
+description: Proponha uma correção de tradução quando o catálogo ou uma build estiver disponível.
+title: "[Terminologia] "
+labels:
+  - terminologia
+body:
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do mod
+      placeholder: Ainda não aplicável ou vX.Y.Z
+    validations:
+      required: true
+  - type: input
+    id: plataforma
+    attributes:
+      label: Plataforma e versão do cliente
+      placeholder: PC/Windows ou Android; versão exibida pelo jogo
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Tela e contexto
+      description: Diga onde o texto aparece e o que está acontecendo.
+    validations:
+      required: true
+  - type: textarea
+    id: atual
+    attributes:
+      label: Texto atual
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Tradução sugerida e justificativa
+    validations:
+      required: true

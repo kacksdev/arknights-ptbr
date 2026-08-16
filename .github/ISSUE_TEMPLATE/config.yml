@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Relatar vulnerabilidade em particular
+    url: https://github.com/kacksdev/arknights-ptbr/security/advisories/new
+    about: Use este canal para problemas de segurança que não devem ser públicos.
