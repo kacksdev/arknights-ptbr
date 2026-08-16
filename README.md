@@ -21,7 +21,7 @@
 
 Este repositório acompanha o desenvolvimento da minha **tradução comunitária de Arknights para português brasileiro**, planejada para **PC/Windows e Android**. A primeira implementação será feita e validada no PC; a adaptação para Android começará somente depois que a estrutura compartilhada de dados e o processo de atualização estiverem confirmados.
 
-O projeto está na **fase de preparação**. O cliente ainda não foi inventariado, o catálogo ainda não foi extraído e nenhuma tradução ou build foi produzida. Por isso, o botão **Code → Download ZIP** baixa apenas a documentação e as imagens deste repositório — **não baixa o mod**.
+O projeto está na **fase de preparação**. O cliente de PC já está instalado pelo Google Play Games, mas ainda não foi inventariado. O catálogo ainda não foi extraído e nenhuma tradução ou build foi produzida. Por isso, o botão **Code → Download ZIP** baixa apenas a documentação e as imagens deste repositório. **Ele não baixa o mod.**
 
 > Não existe pacote público nesta fase. Qualquer arquivo de instalação será publicado exclusivamente em uma Release quando houver um candidato reproduzível, removível e suficientemente testado.
 
@@ -37,9 +37,10 @@ O projeto está na **fase de preparação**. O cliente ainda não foi inventaria
       </picture>
     </td>
     <td>
-      <strong>FASE 0 DE 6 — PREPARAÇÃO</strong><br><br>
+      <strong>FASE 0 DE 6: PREPARAÇÃO</strong><br><br>
       Plataformas-alvo: <strong>PC/Windows e Android</strong><br>
       Prioridade inicial: <strong>PC</strong><br>
+      Cliente de PC: <strong>instalado via Google Play Games</strong><br>
       Catálogo extraído: <strong>não</strong><br>
       Entradas traduzidas: <strong>0</strong><br>
       Build pública: <strong>não existe</strong><br>

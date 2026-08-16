@@ -2,7 +2,7 @@
 
 O roadmap descreve critérios de conclusão, não datas prometidas.
 
-## Fase 0 — Preparação
+## Fase 0: Preparação
 
 **Em andamento.**
 
@@ -11,7 +11,7 @@ O roadmap descreve critérios de conclusão, não datas prometidas.
 - preparar identidade visual e documentação;
 - estabelecer PC como primeira plataforma de implementação.
 
-## Fase 1 — Mapeamento do cliente de PC
+## Fase 1: Mapeamento do cliente de PC
 
 - registrar a versão oficial instalada e os hashes relevantes;
 - identificar formatos, bancos, pacotes, fontes e cadeia de carregamento;
@@ -19,7 +19,7 @@ O roadmap descreve critérios de conclusão, não datas prometidas.
 - testar extração e reconstrução somente em cópias;
 - documentar o comportamento de atualização do cliente.
 
-## Fase 2 — Catálogo técnico
+## Fase 2: Catálogo técnico
 
 - extrair textos com IDs e contexto disponível;
 - preservar placeholders, marcações, quebras e relações entre registros;
@@ -27,7 +27,7 @@ O roadmap descreve critérios de conclusão, não datas prometidas.
 - criar importação e exportação reversíveis;
 - validar round-trip antes da primeira tradução.
 
-## Fase 3 — Tradução integral
+## Fase 3: Tradução integral
 
 - traduzir o catálogo em lotes contextuais;
 - registrar origem e estágio de revisão de cada entrada;
@@ -35,7 +35,7 @@ O roadmap descreve critérios de conclusão, não datas prometidas.
 - executar auditorias estruturais e linguísticas a cada lote;
 - publicar métricas reproduzíveis de cobertura.
 
-## Fase 4 — Build de PC
+## Fase 4: Build de PC
 
 - produzir um pacote que não inclua arquivos proprietários;
 - documentar instalação, atualização, remoção e recuperação;
@@ -43,14 +43,14 @@ O roadmap descreve critérios de conclusão, não datas prometidas.
 - medir desempenho e comportamento após atualização do cliente;
 - falhar de forma segura em versões não reconhecidas.
 
-## Fase 5 — Adaptação Android
+## Fase 5: Adaptação Android
 
 - confirmar quais dados e ferramentas podem ser compartilhados com a versão de PC;
 - adaptar empacotamento e instalação ao Android sem exigir a instalação de PC;
 - validar permissões, armazenamento, atualização e remoção;
 - repetir auditoria estrutural, desempenho e QA na plataforma móvel.
 
-## Fase 6 — Candidato estável
+## Fase 6: Candidato estável
 
 - cobertura textual integral do conteúdo mapeado;
 - instalação e remoção reproduzíveis nas plataformas declaradas;
