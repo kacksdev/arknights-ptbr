@@ -23,13 +23,17 @@
 - ordem de implementação entre PC e Android;
 - política de autoria, contribuição e segurança;
 - regra explícita de não anunciar compatibilidade ou arquitetura sem teste.
+- padrão de distribuição Windows definido: instalador gráfico único, conteúdo
+  verificado, backup, transação, rollback e modos de manutenção.
 
 ## O que ainda precisa ser comprovado
 
 - versão e estrutura exatas do cliente instalado;
 - formato dos bancos, catálogos ou pacotes que armazenam textos;
 - relação entre os dados do PC e do Android;
-- modo seguro de aplicar, atualizar e remover a tradução;
+- implementação do instalador gráfico e modo seguro de aplicar, atualizar,
+  verificar, reparar e remover a tradução;
+- comportamento do arquivo final em matriz automatizada e cliente limpo;
 - cobertura de fontes e caracteres do português brasileiro;
 - comportamento do cliente após atualizações;
 - custo real de carregamento e impacto de desempenho;

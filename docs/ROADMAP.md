@@ -37,7 +37,12 @@ O roadmap descreve critérios de conclusão, não datas prometidas.
 
 ## Fase 4: Build de PC
 
-- produzir um pacote que não inclua arquivos proprietários;
+- produzir um instalador gráfico único que não inclua arquivos proprietários;
+- detectar automaticamente o cliente compatível e aceitar seleção manual;
+- validar versão, estrutura, hashes e conteúdo incorporado antes de alterar;
+- aplicar mudanças em transação com backup, manifesto e rollback automático;
+- reunir instalação, atualização, reparo, verificação e remoção;
+- aprovar matriz automatizada e ciclo do executável final em cliente limpo;
 - documentar instalação, atualização, remoção e recuperação;
 - validar inicialização, narrativa, interface, combate e eventos;
 - medir desempenho e comportamento após atualização do cliente;

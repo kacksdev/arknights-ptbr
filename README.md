@@ -82,7 +82,32 @@ Princípios técnicos:
 - atualização do mod sem apagar dados do jogador;
 - teste de desempenho e regressão antes de cada publicação.
 
-## 05 / AUTORIA E FERRAMENTAS
+## 05 / INSTALADOR PLANEJADO PARA PC
+
+A primeira build para Windows será distribuída como **um único executável
+gráfico**, sem scripts soltos. A implementação definitiva dependerá do
+inventário real do cliente, mas o padrão de entrega já está definido:
+
+- detecção automática da instalação compatível e seleção manual de pasta;
+- validação de versão, estrutura, hashes e conteúdo incorporado antes de gravar;
+- preparação fora do cliente ativo, backup com manifesto e aplicação
+  transacional;
+- rollback automático diante de erro ou cancelamento;
+- barra de progresso, resultado claro e detalhes técnicos recolhíveis;
+- instalação, atualização, reparo, verificação e remoção na mesma interface;
+- preservação de arquivos alheios ao projeto, sem telemetria nem downloads
+  durante a instalação.
+
+O executável exato de uma futura Release deverá passar por matriz automatizada
+e por um ciclo completo em cliente limpo: instalar, verificar, iniciar o jogo,
+inspecionar o log e remover restaurando o estado original. SHA-256, manifesto e
+versão testada acompanharão o download.
+
+A futura adaptação para Android terá distribuição própria, definida e validada
+separadamente. O executável de Windows não será apresentado como instalador
+móvel.
+
+## 06 / AUTORIA E FERRAMENTAS
 
 **Arknights PT-BR é um projeto criado, dirigido, mantido e validado por mim.** A definição do escopo, as decisões técnicas e editoriais, os testes, a compatibilidade e a publicação permanecem sob minha responsabilidade.
 
@@ -90,13 +115,15 @@ O **OpenAI Codex** integra o fluxo como ferramenta auxiliar para acelerar invent
 
 Leia a atribuição completa em [Autoria e processo](docs/AUTORIA-E-PROCESSO.md).
 
-## 06 / PUBLICAÇÃO E LIMITES
+## 07 / PUBLICAÇÃO E LIMITES
 
 - Projeto comunitário, gratuito e sem monetização.
 - Nenhum arquivo proprietário do jogo será incluído no repositório ou nos pacotes.
 - Arknights, personagens, nomes e artes pertencem aos respectivos titulares.
 - Este projeto não é uma tradução oficial e não representa endosso dos titulares do jogo.
-- Cada Release informará plataformas, versão do cliente testada, instalação, atualização, remoção, limitações e integridade do pacote.
+- A primeira Release de PC usará um instalador gráfico único e informará versão
+  do cliente testada, SHA-256, manifesto, recuperação e limitações.
+- Qualquer futura Release de Android será empacotada e validada separadamente.
 - As mudanças de cada versão ficarão nas Releases; esta página mostrará apenas o estado geral do projeto.
 
 Sugestões de documentação e relatos técnicos podem ser enviados pelas [Issues](https://github.com/kacksdev/arknights-ptbr/issues). Pull requests não alteram o projeto automaticamente e só podem ser integrados pelo mantenedor.
