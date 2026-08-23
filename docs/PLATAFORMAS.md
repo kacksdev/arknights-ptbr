@@ -15,6 +15,19 @@ O PC oferece um ambiente mais controlável para inventário, cópias de seguran�
 
 Essa prioridade não significa que a versão Android receberá uma tradução inferior. Ela significa que a base técnica será comprovada primeiro onde é mais fácil diagnosticar e reverter alterações.
 
+## Distribuição no Windows
+
+A primeira build para PC será entregue como um único instalador gráfico. Ele
+deverá localizar ou receber a pasta do cliente, validar a compatibilidade antes
+de gravar, preparar mudanças fora da instalação ativa, criar backup com
+manifesto e executar rollback automático em caso de falha. A mesma interface
+reunirá instalação, atualização, reparo, verificação e remoção.
+
+O arquivo final será publicado somente depois de passar por matriz automatizada
+e ciclo completo em cliente limpo, incluindo inicialização do jogo, inspeção do
+log e restauração do estado original. A Release informará SHA-256, manifesto e
+versão exata do cliente testado.
+
 ## Condição para iniciar o Android
 
 A adaptação móvel começa depois que o projeto souber:
@@ -26,6 +39,10 @@ A adaptação móvel começa depois que o projeto souber:
 - como preservar dados do usuário e recuperar o cliente original.
 
 O pacote de Android será versionado e testado separadamente. Compatibilidade no PC nunca será usada como prova automática de compatibilidade no Android.
+
+O instalador gráfico de Windows não será reutilizado como solução móvel. O
+método de distribuição para Android será definido apenas depois que permissões,
+armazenamento, atualização e reversão forem comprovados na plataforma.
 
 ## Atualizações futuras
 
